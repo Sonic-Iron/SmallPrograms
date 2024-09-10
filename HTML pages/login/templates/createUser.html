@@ -1,0 +1,15 @@
+<html>
+<title> New User </title>
+<body> 
+<form action="" method="post">
+name: <input type="text" name="name" value={{request.form.name}}> <br>
+email : <input type="text" name="email" value={{request.form.email}}><br>
+password: <input type="text" name="password1" value={{request.form.password1}}> <br>
+Repeat password : <input type="text" name="password2" value={{request.form.password2}}><br>
+<h2> {{ERROR}} </h2>
+<input type="submit" name="button" value="input information"><br>
+<input type="submit" name="button" value="Go Back"><br>
+</form>
+</body>
+<html>
+
